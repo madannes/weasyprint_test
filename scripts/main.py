@@ -1,6 +1,6 @@
 import logging
 import settings
-from weasyprint import HTML, CSS
+from weasyprint import HTML
 
 logger = logging.getLogger(settings.STANDARD_LOGGER)
 
