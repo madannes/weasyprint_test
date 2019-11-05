@@ -3,6 +3,8 @@
 A simple, Docker-ized (def not required) snippet of code to test performance and CSS support for
 [weasyprint's](https://weasyprint.org/) HTML to PDF conversion.
 
+![sample output](output.png "sample output")
+
 ## PERFORMANCE
 
 Using [this simple template](templates/test.html) with [this CSS](templates/test.css),
@@ -10,9 +12,8 @@ on my 2015 MacBook Pro I generated
 
 > **100 PDFs in ~24 seconds**!
 
-I did note that the performance
-decreased dramatically from my first, _very_ simple test to the HTML & CSS I have now.. so I
-recommend testing with a realistic sample.
+I did note that the performance decreased dramatically from my first, _very_ simple test to the
+HTML & CSS I have now.. so I recommend testing with a realistic sample.
 
 ## CSS SUPPORT
 
