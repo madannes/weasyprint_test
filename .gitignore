@@ -1,0 +1,4 @@
+.env
+.pytest
+.vscode
+*.pyc

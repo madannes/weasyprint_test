@@ -1,0 +1,76 @@
+@page {
+  margin: 0.5in;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 11pt;
+}
+
+.boxed {
+  background-color: green;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 0.25em 1em;
+}
+
+.boxed.thick {
+  padding: 1em;
+}
+
+.split-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#gridContainer .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+table.chart {
+  border-collapse: collapse;
+}
+
+table.chart th,
+table.chart td {
+  border: 1px solid #ccc;
+  padding: 0.2em;
+}
+
+table.chart thead th:first-child {
+  border: none;
+}
+
+table.chart thead th label {
+  display: block;
+  writing-mode: vertical-lr;
+}
+
+table.chart tbody td {
+  text-align: center;
+}
+/* 
+@media print {
+  .paragraphs p {
+    page-break-before: always;
+  }
+} */
+
+.paragraphs {
+  page-break-before: always;
+}
+
+.paragraphs p {
+  padding: 0 1em;
+}
+
+footer {
+  color: #777;
+  font-size: 80%;
+  margin-top: 25px;
+  text-align: center;
+}

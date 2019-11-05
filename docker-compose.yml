@@ -1,0 +1,12 @@
+version: '2'
+services:
+  worker:
+    build: .
+    entrypoint: python scripts/main.py
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - ./.env
+    # required for pdb debugger - run `docker attach <containerid>`
+    stdin_open: true
+    tty: true
