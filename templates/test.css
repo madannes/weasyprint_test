@@ -45,20 +45,9 @@ table.chart thead th:first-child {
   border: none;
 }
 
-table.chart thead th label {
-  display: block;
-  writing-mode: vertical-lr;
-}
-
 table.chart tbody td {
   text-align: center;
 }
-/* 
-@media print {
-  .paragraphs p {
-    page-break-before: always;
-  }
-} */
 
 .paragraphs {
   page-break-before: always;
