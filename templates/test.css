@@ -41,6 +41,15 @@ table.chart td {
   padding: 0.2em;
 }
 
+table.chart .filled {
+  background-color: #f80;
+}
+
+table.chart thead th {
+  transform: rotate(-90deg);
+  height: 72px;
+}
+
 table.chart thead th:first-child {
   border: none;
 }
